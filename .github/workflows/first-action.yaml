@@ -9,5 +9,5 @@ jobs:
         run: echo "Hello, World!"
       - name: Print current date
         run: date
-        -name: Print bye
+      - name: Print bye
         run: echo "Goodbye, World!"
