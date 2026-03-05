@@ -1,0 +1,13 @@
+name: First Action
+
+on: workflow_dispatch
+jobs:
+  first-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello, World!"
+      - name: Print current date
+        run: date
+        -name: Print bye
+        run: echo "Goodbye, World!"
